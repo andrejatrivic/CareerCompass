@@ -5,6 +5,8 @@ VisualStudioVersion = 17.12.35521.163 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareerCompassDemo", "CareerCompassDemo\CareerCompassDemo.csproj", "{EA9A806C-AD73-4C48-BEC1-306927FB047D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareerCompassWorkshop", "CareerCompassWorkshop\CareerCompassWorkshop.csproj", "{DEB979A7-6AB8-4016-A6CE-3D77F50749C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{EA9A806C-AD73-4C48-BEC1-306927FB047D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA9A806C-AD73-4C48-BEC1-306927FB047D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA9A806C-AD73-4C48-BEC1-306927FB047D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEB979A7-6AB8-4016-A6CE-3D77F50749C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEB979A7-6AB8-4016-A6CE-3D77F50749C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEB979A7-6AB8-4016-A6CE-3D77F50749C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEB979A7-6AB8-4016-A6CE-3D77F50749C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
