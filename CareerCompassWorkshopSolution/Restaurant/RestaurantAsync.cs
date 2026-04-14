@@ -9,7 +9,7 @@ public class RestaurantAsync
         Console.WriteLine("Restaurant opened! \n");
     }
 
-    public async Task Work()
+    public async Task WorkAsync()
     {
         var person1 = new Person1Async();
         var person2 = new Person2Async();

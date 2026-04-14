@@ -26,7 +26,7 @@ Console.WriteLine("---- ASYNC ----");
 var restaurantAsync = new RestaurantAsync();
 
 restaurantAsync.Open();
-await restaurantAsync.Work();
+await restaurantAsync.WorkAsync();
 restaurantAsync.Close();
 
 Console.WriteLine($"Total async working time: {sw.ElapsedMilliseconds} ms.\n");

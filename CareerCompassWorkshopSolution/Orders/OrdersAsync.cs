@@ -12,7 +12,7 @@ public class Person1Async
     {
         Console.WriteLine("\nPreparing Burger and fries.");
 
-        await Task.WhenAll(CookBurger(), CookFries());
+        await Task.WhenAll(CookBurgerAsync(), CookFriesAsync());
     }
 
     public async Task ServeAsync()
@@ -22,14 +22,14 @@ public class Person1Async
         Console.WriteLine("Burger and fries ready!");
     }
 
-    private async Task CookBurger()
+    private async Task CookBurgerAsync()
     {
         Console.WriteLine("Cooking Burger...");
         await Task.Delay(3000);
         Console.WriteLine("Burger ready!");
     }
 
-    private async Task CookFries()
+    private async Task CookFriesAsync()
     {
         Console.WriteLine("Cooking Fries...");
         await Task.Delay(3000);
